@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: task_image
+        image: omrik91/task-image
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
